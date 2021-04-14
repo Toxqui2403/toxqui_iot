@@ -6,25 +6,44 @@
 @import "/lib/mi-nav.css";
 @import "/lib/campos.css";
 
+div{
+  margin: auto;
+}
 
-body {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background:#fff;
+}
+
   .contenido {
     display: inline-block;
     text-align: start;
   }
+
+  a{
+    color: rgb(99,99,99);
+}
   
   meter,
   input[type=range],
   output {
     display: block;
   }
-  
-  mi-footer {
-    display: block;
-    margin: 1rem 0;
-    font-size: small;
+
+  footer {
+    background: #111;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    align-self: flex-end;
+  }
+
+  h1{
+    margin: auto;
   }
