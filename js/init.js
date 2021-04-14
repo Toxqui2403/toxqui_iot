@@ -3,6 +3,7 @@
 firebase.initializeApp({
   apiKey: "AIzaSyDywHQv3ZZHqtYszJfX-V9Nkt1Y-3JJiDU",
   authDomain: "toxquiiot.firebaseapp.com",
+  databaseURL: "https://gilpgiotx.firebaseio.com",
   projectId: "toxquiiot",
   storageBucket: "toxquiiot.appspot.com",
   messagingSenderId: "76586346586",
